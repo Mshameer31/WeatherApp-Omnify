@@ -1,0 +1,91 @@
+body {
+  background-color: #85929E;
+  font-family: "Raleway", sans-serif;
+}
+
+.box {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#container {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 7vh;
+}
+
+.card {
+  width: 300px;
+  background-color: #D6DBDF;
+  border: 1px solid #bacdd8;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: black;
+  background-color:#D6DBDF ;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+
+.weather-info div {
+  width: 25%;
+  height: 100%;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  width: 25%;
+  height: 5vh;
+}
+@media (max-width: 600px) {
+  .search{
+    width: 55%;
+  height: 5vh;
+  }
+}
